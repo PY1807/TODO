@@ -1,0 +1,58 @@
+body
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+#h
+{
+  font-size: 40px;
+  text-align: center;
+}
+p
+{
+ font-size: 25px;
+}
+.parent
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Work,#date
+{
+  font-size: 15px;
+  padding: 10px 5px;
+}
+
+.Add-items
+{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+#add {
+  background-color: green;
+  color: yellow;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+
+#Delete {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px;
+  cursor: pointer;
+}
